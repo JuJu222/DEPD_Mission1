@@ -25,7 +25,8 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red.shade300,
-        title: const Text('Mission 1'),
+        title: const Text('Mission 1',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
       ),
       body: Stack(children: <Widget>[
         Container(
